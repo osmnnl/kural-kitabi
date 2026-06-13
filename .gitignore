@@ -1,0 +1,20 @@
+# OS / artıklar
+.DS_Store
+__pycache__/
+*.pyc
+
+# Telifli kaynak materyaller (Awaken Realms orijinalleri) — YAYINLANMAZ
+*.pdf
+!site/rulebooks/*.pdf
+
+# Telifli PDF'den türetilmiş raster görseller + dizgi ara/çıktı dosyaları
+grimcoven_proje/art/
+grimcoven_proje/*.html
+
+# Büyük yinelenen / önizleme HTML'leri (yayın kopyası site/ içinde)
+/grimcoven_TR.html
+/grimcoven_TR_yeni_*.html
+
+# İç çalışma / oturum notları
+.claude/
+CLAUDE.md

@@ -1,0 +1,63 @@
+<style>
+.p26 .txtcol{background-image:url(data:image/jpeg;base64,@@CLEANPARCH26@@);}
+.p26 .txtcol p,.p26 .txtcol .bullet{font-size:8.1pt;line-height:1.3;margin:0 0 1.3mm;}
+.p26 .txtcol h2{font-size:12.5pt;margin:1.6mm 0 .8mm;}
+.p26 .txtcol .gt{font-size:26pt;margin:0 0 1.4mm;}
+.p26 .led{font-style:italic;color:var(--ink-soft);margin:0 0 1.2mm;}
+.p26 .lbl{font-size:7pt;line-height:1.12;font-weight:600;color:var(--ink);margin:0;}
+.p26 .lblr{text-align:left;}
+/* görsel-içi pano anatomisi etiketleri: İngilizce ile AYNI boyut (≈7pt, ölçüldü),
+   parşömen arka plan (görsel-içi zeminle birebir), kılavuz çizgileri+maroon çerçeve+pano SANATINA taşmaz */
+.p26 .dlbl{font-family:'Lora',serif;font-weight:700;font-size:7pt;line-height:1.32;color:var(--ink);margin:0;}
+</style>
+<section class="page setup p26">
+  <img class="base" src="data:image/jpeg;base64,@@BASE26@@" alt="">
+
+  <!-- TOP: HUNTERS + board anatomy intro (tam genişlik yalnız 48'e kadar; EN maddeler 71.1'e iner,
+       74.3'te "Evolution spaces" pano etiketi başlar → maddeler için dar ayrı kapak) -->
+  <div class="txtcol" style="left:17mm;top:21mm;width:244mm;height:28.6mm;background-position:-17mm -21mm;padding-left:3mm;">
+    <div class="gt">AVCILAR</div>
+    <h2 style="margin-top:0">Avcı panosu anatomisi</h2>
+    <p class="led">Av sırasında önce kendini tanımalısın.</p>
+    <p style="margin-bottom:0">Avcı panosu, bir Oyuncunun Avcısının durumunu izlediği ana yerdir; Avcı panosunda bulabileceğin bilgiler şunları içerir:</p>
+  </div>
+  <div class="txtcol" style="left:17mm;top:48mm;width:95mm;height:24.5mm;background-position:-17mm -48mm;padding-left:3mm;">
+    <p class="bullet">• Mevcut Yozlaşma.</p>
+    <p class="bullet">• Mevcut Can <img class="ic" src="data:image/png;base64,@@IC_HEALTH@@" alt="">.</p>
+    <p class="bullet">• Savunma yuvası.</p>
+    <p class="bullet">• Taktik yuvası.</p>
+    <p class="bullet" style="margin-bottom:0">• Temel Eylemler.</p>
+  </div>
+
+  <!-- Pano anatomisi görsel-içi etiketleri — kullanıcı isteğiyle ÇEVRİLDİ.
+       Konumlar base_p26'dan ölçüldü: SOL etiketler kılavuz x60'ta başlar + maroon çerçeve x24;
+       SAĞ etiketler kılavuz x196'da biter + maroon çerçeve x250.7. Kapaklar bu sınırların içinde. -->
+  <!-- Üst orta: Evolution spaces. DİKKAT: kırmızı çerçeve çizgisi y75.8-76'da metnin ÜSTÜNDEN geçer,
+       metin y78-80.5, sarı kılavuz y82.5'te başlar → kapak y76.7-82.1 (çizgiyi de kılavuzu da KESMEZ) -->
+  <div class="txtcol" style="left:79mm;top:76.7mm;width:26mm;height:5.4mm;background-position:-79mm -76.7mm;padding-left:2mm;"><p class="dlbl">Evrim alanları</p></div>
+  <!-- SOL: Corruption Track / Basic Actions / Assist (kılavuz x60'ta, çerçeve x24) -->
+  <div class="txtcol" style="left:33mm;top:88.5mm;width:25mm;height:6.5mm;background-position:-33mm -88.5mm;padding-left:1.5mm;"><p class="dlbl">Yozlaşma Şeridi</p></div>
+  <div class="txtcol" style="left:33mm;top:118mm;width:25mm;height:6mm;background-position:-33mm -118mm;padding-left:1.5mm;"><p class="dlbl">Temel Eylemler</p></div>
+  <div class="txtcol" style="left:33mm;top:144mm;width:25mm;height:11mm;background-position:-33mm -144mm;padding-left:1.5mm;"><p class="dlbl">Yardımcı özel<br>eylem yuvası</p></div>
+  <!-- SAĞ: When15(3 satır) / Tactic / Health / Defence (kılavuz x196'da biter, çerçeve x250.7) -->
+  <div class="txtcol" style="left:197mm;top:88mm;width:52mm;height:13mm;background-position:-197mm -88mm;padding-left:1mm;"><p class="dlbl">15 Yozlaşmaya ulaştığında,<br>Avcı levhanı Yozlaşmış<br>yüzüne çevir</p></div>
+  <div class="txtcol" style="left:197mm;top:101.5mm;width:52mm;height:6mm;background-position:-197mm -101.5mm;padding-left:1mm;"><p class="dlbl">Taktik jetonu yuvası</p></div>
+  <div class="txtcol" style="left:197mm;top:121.5mm;width:52mm;height:6mm;background-position:-197mm -121.5mm;padding-left:1mm;"><p class="dlbl">Can kadranı</p></div>
+  <div class="txtcol" style="left:197mm;top:144mm;width:52mm;height:6mm;background-position:-197mm -144mm;padding-left:1mm;"><p class="dlbl">Savunma jetonu yuvası</p></div>
+
+  <!-- LEFT lower: Hunter tile + Item/Evolution (kırmızı ayraç y=163 tam genişlik — kapak ALTINDAN
+       başlamalı; EN başlık 170, EN bant sonu ~259) -->
+  <div class="txtcol" style="left:19.6mm;top:167mm;width:118mm;height:92.5mm;background-position:-19.6mm -167mm;padding-left:3mm;">
+    <h2 style="margin-top:0">Avcı levhası ve özel mekanikler</h2>
+    <p class="led">Söyle bakalım yabancı. Sen kimsin?</p>
+    <p style="margin-bottom:.6mm">Her Avcı bir Avcı levhasıyla temsil edilir; üzerinde Avcıya özgü bilgiler bulabilirsin:</p>
+    <p class="bullet">• Azami Can <img class="ic" src="data:image/png;base64,@@IC_HEALTH@@" alt="">.</p>
+    <p class="bullet">• Hareket değeri <img class="ic" src="data:image/png;base64,@@IC_MOVE@@" alt="">.</p>
+    <p class="bullet">• Özel yetenekler ve/veya Eylemler.</p>
+    <p>Bir Avcı levhasının iki yüzü vardır: Yozlaşmamış ve Yozlaşmış. Her Avcının özel kuralları, oyun tarzı ve karmaşıklığı hakkında ayrıntılı bilgi için sonraki sayfalara bakın.</p>
+    <h2>Eşya ve Evrim kartları</h2>
+    <p>Her Avcının kendi Eşya destesi (Silah ve Zırh kartları içeren) ve Evrim destesi vardır.</p>
+    <p>Eşya kartları, oyun başında kurulum sırasında seçilir. Ek Eylemler sağlar ve başlangıç zarlarını belirler.</p>
+    <p style="margin-bottom:0">Evrim destesi, Avcı Lament harcayarak bir Evrim çözdüğünde oyun sırasında kullanılır. Bu deste, avı tamamlamak için kritik olan birçok güçlü Eylem ve etki içerir.</p>
+  </div>
+</section>

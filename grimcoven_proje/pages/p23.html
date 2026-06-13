@@ -1,0 +1,83 @@
+<style>
+.p23 .txtcol{background-image:url(data:image/jpeg;base64,@@CLEANPARCH23@@);}
+.p23 .txtcol p,.p23 .txtcol .step{font-size:8.0pt;line-height:1.28;margin:0 0 1.2mm;}
+.p23 .txtcol h1{font-size:14pt;margin:0 0 .8mm;}
+.p23 .txtcol h2{font-size:12pt;margin:1.6mm 0 .7mm;}
+.p23 .txtcol .gt{font-size:26pt;margin:0 0 1.6mm;}
+.p23 .txtcol .step{padding-left:4.2mm;text-indent:-4.2mm;}
+.p23 .capc{font-style:italic;font-size:7.6pt;line-height:1.25;text-align:center;margin:0;color:var(--ink-soft);}
+.p23 .sd p{font-size:7.7pt;line-height:1.23;margin:0;}
+</style>
+<section class="page setup p23">
+  <img class="base" src="data:image/jpeg;base64,@@BASE23@@" alt="">
+
+  <!-- LEFT A: Other rules / Map / Spaces / Range,LoS -->
+  <div class="txtcol" style="left:19.6mm;top:21mm;width:117mm;height:133mm;background-position:-19.6mm -21mm;padding-left:3mm;">
+    <div class="gt">DİĞER KURALLAR</div>
+    <h1 style="margin-top:0">Harita</h1>
+    <h2 style="margin-top:0">Alanlar</h2>
+    <p>Bir alan, Haritanın tek bir altıgen bölgesidir. Her alan en fazla 4 Model alabilir. Buna Avcılar, Düşmanlar ve Portal gibi Çevre Modelleri dahildir.</p>
+    <p>Bir Model, Hareketini (Hareket ederek ya da Işınlanarak) tamamen dolu bir alanda bitirdiğinde, o alandaki Modellerden birini bitişik bir alana iter.</p>
+    <p style="margin-bottom:.4mm">Avcılar hangi Modeli iteceklerini seçebilir; Düşmanlar ise alanda bulunuyorsa Modelleri belirli bir sırayla itmek zorundadır:</p>
+    <p class="step">1. Yoldaşlar.</p>
+    <p class="step">2. Uşaklar.</p>
+    <p class="step">3. Seçkin Düşmanlar.</p>
+    <p class="step">4. Avcılar.</p>
+    <p>Bir Model alanına girdiğinde Griefbound ya da Çevre Modelleri asla itilemez. Griefbound Modeli 2 Model sayılır; bu yüzden tamamen dolu bir alana girerken, boyutuna uyacak ve Model sınırına uyacak şekilde alandan 2 Model iter.</p>
+    <h2>Menzil, Görüş Hattı (LoS)</h2>
+    <p>Oyun sırasında birçok etki Menzili kontrol eder. Menzil, alanlarla ölçülür ve bir etkinin en küçük ile en büyük menzilini gösteren ilgili <img src="data:image/png;base64,@@IC_RANGE@@" alt="" style="height:.6em;width:auto;vertical-align:.05em;margin:0 .12em;"> simgesiyle belirtilir. Örn. <img src="data:image/png;base64,@@IC_RANGE@@" alt="" style="height:.6em;width:auto;vertical-align:.05em;margin:0 .12em;">0-1, etkinin aynı ya da bitişik bir alanda çözülebileceğini söyler. <img src="data:image/png;base64,@@IC_RANGE@@" alt="" style="height:.6em;width:auto;vertical-align:.05em;margin:0 .12em;">2-2 ise etkinin yalnızca tam 2 alan ötedeki bir alanı hedefleyebileceğini gösterir, vb.</p>
+    <p style="margin-bottom:0">Görüş Hattı (LoS), düz ve engellenmemiş bir alanlar dizisidir. Bir Görüş Hattında olmak, başka bir alandan açık bir hat üzerindeki alanlardan birinde olmak demektir. Yalnızca Engeller ve Sis alanları Görüş Hattını engeller (aşağıdaki özel alanlara bakın). Bazı etkiler hem Menzil hem Görüş Hattı gerektirir. Haritanın kenarları Engel sayılır.</p>
+  </div>
+
+  <!-- Gutter sızıntı kapağı: LEFT A sağ kenarının (x136.6) sağında, gutter'da hayalet İngilizce "Y" sızıyordu
+       (LoS paragrafı, y~133). Sağ kolon x140.6'da başlar → x136.6-140.6 gutter'ı ört (metni reflow etmez). -->
+  <div class="txtcol" style="left:136.6mm;top:97mm;width:4.1mm;height:57mm;background-position:-136.6mm -97mm;"></div>
+
+  <!-- LEFT caption under LoS diagram -->
+  <div class="txtcol" style="left:19.6mm;top:235mm;width:117mm;height:13.5mm;background-position:-19.6mm -235mm;">
+    <p class="capc">Not: Bir Model her zaman kendi Görüş Hattındadır.<br>Aynı alandaki Modeller birbirinin Görüş Hattındadır.</p>
+  </div>
+
+  <!-- RIGHT head: Terrain and special spaces -->
+  <div class="txtcol" style="left:140.6mm;top:21mm;width:118mm;height:26mm;background-position:-140.6mm -21mm;">
+    <h1 style="margin-top:0">Arazi ve özel alanlar</h1>
+    <p style="margin-bottom:0">Senaryo için bir Harita kurarken bazı Harita Parçaları aynı rengi paylaşır; aynı renkteki tüm alanlara bir Arazi denir: Orman, Bataklık ya da Mezarlık. Bunların her Senaryoda ek etkileri ya da Eylemleri olur. Harita genellikle 2 farklı Arazi birleştirilerek oluşturulur.</p>
+  </div>
+
+  <!-- RIGHT terrain caption -->
+  <div class="txtcol" style="left:140.6mm;top:80mm;width:118mm;height:6mm;background-position:-140.6mm -80mm;">
+    <p class="capc">Arazi örnekleri. Orman, Bataklık ve Mezarlık.</p>
+  </div>
+
+  <!-- RIGHT special-spaces intro: EN satırı y93-96'da; hex y98'de başlıyor — kapak 90.5-97 -->
+  <div class="txtcol" style="left:140.6mm;top:90.5mm;width:118mm;height:6.5mm;background-position:-140.6mm -90.5mm;">
+    <p style="margin:0">Ayrıca dikkate alınacak bazı özel alanlar da vardır:</p>
+  </div>
+
+  <!-- Deep Water — hex sanatı x170'e uzanıyor; kapak x171.2'den (hex'i KIRPMA) -->
+  <div class="txtcol sd" style="left:171.2mm;top:97mm;width:86.8mm;height:15mm;background-position:-171.2mm -97mm;">
+    <p><b>Derin Su</b> – Modeller Derin Su alanına giremez; <img class="ic" src="data:image/png;base64,@@IC_NOENTER@@" alt=""> simgesiyle gösterilir. Menzil ve Görüş Hattı yine de içinden ölçülebilir.</p>
+  </div>
+
+  <!-- Fog -->
+  <div class="txtcol sd" style="left:171.2mm;top:124mm;width:86.8mm;height:17mm;background-position:-171.2mm -124mm;">
+    <p><b>Sis</b> – Görüş engellenir. Bu alanın sınırlarından Görüş Hattı ölçülemez; <img class="ic" src="data:image/png;base64,@@IC_NOLOS@@" alt=""> simgesiyle gösterilir. Aynı Sis alanındaki iki Model yine de birbirinin Görüş Hattındadır.</p>
+  </div>
+
+  <!-- Obstacles -->
+  <div class="txtcol sd" style="left:171.2mm;top:151mm;width:86.8mm;height:16mm;background-position:-171.2mm -151mm;">
+    <p><b>Engeller</b> – Bu alana hiçbir Model, Avcı ya da Düşman giremez. Menzil ve Görüş Hattı içinden ölçülemez. Kısıtlamalar <img class="ic" src="data:image/png;base64,@@IC_NOENTER@@" alt=""> ve <img class="ic" src="data:image/png;base64,@@IC_NOLOS@@" alt=""> simgeleriyle gösterilir.</p>
+  </div>
+
+  <!-- Lament Rifts (EN paragraf son satırı y200-202'ye iniyor → kapak 202'ye uzatıldı) -->
+  <div class="txtcol sd" style="left:165mm;top:180mm;width:93mm;height:22mm;background-position:-165mm -180mm;">
+    <p><b>Lament Yarıkları</b> – Bir alanda Yarık jetonu varsa, o alan belirli bir numaraya sahip bir Lament Yarığı sayılır. Üzerinde bulunduğu Araziyi geçersiz kılmaz ve tek başına bir etkisi yoktur; ancak Uşak Çağırma, Haritaya Lament ekleme gibi birçok etki bu alanlara atıfta bulunabilir.</p>
+  </div>
+
+  <!-- RIGHT: Treasures, Lament and Status tokens (EN başlık render'da ~y203-206 → kapak 202'den başlatıldı, İng. başlık sızıntısı kapatıldı) -->
+  <div class="txtcol" style="left:140.6mm;top:202mm;width:118mm;height:53mm;background-position:-140.6mm -202mm;">
+    <h1 style="margin-top:0">Haritadaki Hazine, Lament ve Durum jetonları</h1>
+    <p>Oyunun başında ve oyun boyunca bazı etkiler nedeniyle Haritaya birçok farklı jeton konabilir. Bu jetonlar için genel kurallar şunlardır: Düşmanlar onlarla etkileşmez (aksi belirtilmedikçe); Avcılar olumlu olanları (Hazine, Lament vb.) alabilir ve Eylemlerini bu jetonların bulunduğu bir alanda bitirirlerse olumsuz olanları (Durumlar, Açlık vb.) almak zorundadır. Bu jetonların çoğu alındığında kazanılır.</p>
+    <p style="margin-bottom:0"><b>Hazine jetonları</b> – İçinde rastgele ödüller bulunan olumlu bir jeton; seçeneklerden biri her zaman bir İyileştirmedir. Bir Avcı bir Hazine jetonu almaya karar verdiğinde onu açar, mevcut seçenekleri okur ve birini seçip çözer. Sonrasında jeton oyundan çıkarılır. Haritaya bir Hazine jetonu eklenecekse, hâlâ mevcut olan (henüz çıkarılmamış) havuzdan rastgele çekilmelidir.</p>
+  </div>
+</section>
