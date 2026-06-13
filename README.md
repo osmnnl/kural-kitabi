@@ -21,7 +21,7 @@ baskıya uygun, kendi-kendine yeten HTML olarak yeniden dizildi.
 
 Statik site; derleme adımı yok. **Yayın dizini: `site/`**
 - **Netlify:** "Add new site → Deploy manually" → `site/` klasörünü sürükle. Ya da bu repoyu bağla; *Publish directory* = `site`, *Build command* boş.
-- **GitHub Pages:** kaynak olarak `/site` dizinini seç.
+- **GitHub Pages:** Pages yalnızca kök ya da `/docs`'tan yayınladığı için `site/` içeriğini bir `docs/` klasörüne taşı, ya da `site/`'ı yayınlayan bir Pages Action ekle. (En kolayı Netlify.)
 
 ## Yeniden dizgi hakkında
 
